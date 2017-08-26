@@ -40,7 +40,7 @@
                 <div class="login-panel panel panel-default">
                   <h1 style="text-align:center">GBSE</h1>
                     <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
+                        <h3 class="panel-title">Criar Conta</h3>
                     </div>
                     <div class="panel-body">
                         <form role="form">
@@ -51,13 +51,7 @@
                                 <div class="form-group">
                                     <input class="form-control" placeholder="Password" name="password" type="password" value="">
                                 </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input name="remember" type="checkbox" value="Remember Me">Remember Me
-                                    </label>
-                                </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.php" class="btn btn-lg btn-success btn-block">Login</a>
                                 <a href="cadastro.php" class="btn btn-lg btn-success btn-block">Criar conta</a>
                             </fieldset>
                         </form>
@@ -82,3 +76,38 @@
 </body>
 
 </html>
+
+<?php
+
+// Esse trecho de código é utilizado para fazer o sistema de autenticação
+
+$login = $_POST['email'];
+$senha = MD5($_POST['senha']);
+$connect = mysql_connect('nome_do_servidor','nome_de_usuario','senha');
+$db = mysql_select_db('nome_do_banco_de_dados');
+$query_select = "SELECT login FROM usuarios WHERE login = '$login'";
+$select = mysql_query($query_select,$connect);
+$array = mysql_fetch_array($select);
+$logarray = $array['login'];
+
+  if($login == "" || $login == null){
+    echo"<script language='javascript' type='text/javascript'>alert('O campo login deve ser preenchido');window.location.href='cadastro.html';</script>";
+
+    }else{
+      if($logarray == $login){
+
+        echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='cadastro.html';</script>";
+        die();
+
+      }else{
+        $query = "INSERT INTO usuarios (login,senha) VALUES ('$login','$senha')";
+        $insert = mysql_query($query,$connect);
+
+        if($insert){
+          echo"<script language='javascript' type='text/javascript'>alert('Usuário cadastrado com sucesso!');window.location.href='login.html'</script>";
+        }else{
+          echo"<script language='javascript' type='text/javascript'>alert('Não foi possível cadastrar esse usuário');window.location.href='cadastro.html'</script>";
+        }
+      }
+    }
+?>

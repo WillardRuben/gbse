@@ -95,9 +95,16 @@
 
     <div id="page-wrapper">
       <form xclass="formulario_bloqueio" action="../banco/blacklist.php" method="post">
-        <textarea name="texto" rows="3" cols="15"></textarea>
+        <h3>Sites para bloqueio</h3>
+        <textarea name="texto" rows="5" cols="70"></textarea><br><br>
         <input name="bloqueio" type="submit" value="Bloquear">
+
       </form>
+
+      <form xclass="formulario_reinicio" action="service.php" method="post">
+        <input name="reiniciar" type="submit" value="Reiniciar">
+      </form>
+
 
       <div>
 
