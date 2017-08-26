@@ -94,7 +94,7 @@
     </div>
 
     <div id="page-wrapper">
-      <form xclass="formulario_bloqueio" action="../banco/blacklist.php" method="post">
+      <form xclass="formulario_bloqueio" action="../php/blacklist.php" method="post">
         <h3>Sites para bloqueio</h3>
         <textarea name="texto" rows="5" cols="70"></textarea><br><br>
         <input name="bloqueio" type="submit" value="Bloquear">
@@ -107,7 +107,7 @@
 
 
       <div>
-
+        <h3>Sites Bloqueados</h3>
         <?php
         $i = 0;
         $handle = fopen("/var/www/html/gbse/arquivo/blacklist.txt", "r");
@@ -123,9 +123,9 @@
                 $i++;
             }
             fclose($handle);
-            $array['sites'] = $array2;
-            echo json_encode($array);
-            echo '<br>';
+            // $array['sites'] = $array2;
+            // echo json_encode($array);
+            // echo '<br>';
             echo 'Total = ' . $i;
         } else {
             // error opening the file.

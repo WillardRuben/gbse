@@ -76,8 +76,7 @@
                             <a href="bloqueio_sites.php"></i> Bloqueio de Sites</a>
                         </li>
                         <li>
-                            <a href="#"></i>Bloqueio de Extensões<span class="fa arrow"></span></a>
-                            <!-- /.nav-second-level -->
+                            <a href="bloqueio_extensoes.php"></i>Bloqueio de Extensões</a>
                         </li>
                         <li>
                             <a href="login.php"></i>Sair</a>
