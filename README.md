@@ -22,7 +22,7 @@ Com a observação da ferramenta citada anteriormente, foi visto que a mesma só
 
 ## Protótipos
 
-![bloqueio_de_sites.png]({{site.baseurl}}/bloqueio_de_sites.png)
+![bloqueio_de_sites.png](https://github.com/WillardRuben/gbse/bloqueio_de_sites.png)
 > We loved with a love that was more than love
 
 ![bloqueio_de_extensoes.png]({{site.baseurl}}/bloqueio_de_extensoes.png)
