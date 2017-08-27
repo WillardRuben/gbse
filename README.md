@@ -33,4 +33,4 @@ Com a observação da ferramenta citada anteriormente, foi visto que a mesma só
 	service squid3 stop
 	service squid3 restart
     
-Os comando anteriores, servem para gerenciar o serviço no servidor em questão.![]({{site.baseurl}}/)
+Os comandos anteriores, servem para gerenciar o serviço no servidor em questão.![]({{site.baseurl}}/)
