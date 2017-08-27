@@ -1,3 +1,5 @@
-# GBSE - Gerenciamento de Bloqueio de Sites e Extensões
-Repositório do projeto da disciplina de desenvolvimento web 2017-1
-Integrantes: Willard Ruben de Souza Meira, Diego Henrique da Silva
+**GBSE - Gerenciamento de Bloqueio de Sites e Extensões**
+
+## Objetivo
+O projeto em questão tem a proposta de fazer o bloqueio de sites e extensões através da utilização de uma interface web para o servidor proxy squid3.
+
