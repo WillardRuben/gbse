@@ -26,13 +26,12 @@ Com a observação da ferramenta citada anteriormente, foi visto que a mesma só
 
 ## Instrução de instalação do Squid3
 	apt-get install squid3
+    
+## Comandos
 
-
-
-
-
-
-
-
-
+	service squid3 start
+	service squid3 stop
+	service squid3 restart
+    
+Os comando anteriores, servem para gerenciar o serviço no servidor em questão.
 
