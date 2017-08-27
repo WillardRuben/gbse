@@ -11,10 +11,12 @@ A utilização do squid tambem possibilita a criação de regras de acesso(as AC
 
 A inspiração para o projeto partiu da observação da ferramenta "Sarg".
 
-A figura 1 mostra a ferramenta "Sarg".![sarg]({{site.baseurl}}//sarg.jpg)
-![]({{site.baseurl}}//sarg.jpg)
+A figura 1 mostra a ferramenta "Sarg".
 
-![sarg.jpg]({{site.baseurl}}/sarg.jpg) _figura 1 - Sarg_
+![sarg]({{site.baseurl}}//sarg.jpg)_figura 1 - Sarg_
+
+
+![sarg.jpg]({{site.baseurl}}/sarg.jpg) 
 
 Com a observação da ferramenta citada anteriormente, foi visto que a mesma só faz a exibição de arquivos de log de forma amigável, porém, a idéia é que além de o administrador poder visualizar os arquivos de log em geral, ele pudesse também fazer a gerencia de algumas regras que podem ser feitas no squid3, a exemplo do bloqueio de sites e extensões. 
 
@@ -35,4 +37,3 @@ Com a observação da ferramenta citada anteriormente, foi visto que a mesma só
 	service squid3 restart
     
 Os comando anteriores, servem para gerenciar o serviço no servidor em questão.![]({{site.baseurl}}/)
-
