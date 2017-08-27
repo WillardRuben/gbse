@@ -12,6 +12,7 @@ A utilização do squid tambem possibilita a criação de regras de acesso(as AC
 A inspiração para o projeto partiu da observação da ferramenta "Sarg".
 
 A figura 1 mostra a ferramenta "Sarg".![sarg]({{site.baseurl}}//sarg.jpg)
+![]({{site.baseurl}}//sarg.jpg)
 
 ![sarg.jpg]({{site.baseurl}}/sarg.jpg) _figura 1 - Sarg_
 
