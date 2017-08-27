@@ -13,7 +13,7 @@ A inspiração para o projeto partiu da observação da ferramenta "Sarg".
 
 A figura 1 mostra a ferramenta "Sarg".
 
-![sarg]({{site.baseurl}}//sarg.jpg)_figura 1 - Sarg_
+![sarg](https://github.com/WillardRuben/gbse/blob/master/sarg.jpg)_figura 1 - Sarg_
 
 
 ![sarg.jpg]({{site.baseurl}}/sarg.jpg) 
