@@ -13,10 +13,8 @@ A inspiração para o projeto partiu da observação da ferramenta "Sarg".
 
 A figura 1 mostra a ferramenta "Sarg".
 
-![sarg](https://github.com/WillardRuben/gbse/blob/master/sarg.jpg)_figura 1 - Sarg_
-
-
-![sarg.jpg]({{site.baseurl}}/sarg.jpg) 
+![sarg](https://github.com/WillardRuben/gbse/blob/master/sarg.jpg)
+_figura 1 - Sarg_
 
 Com a observação da ferramenta citada anteriormente, foi visto que a mesma só faz a exibição de arquivos de log de forma amigável, porém, a idéia é que além de o administrador poder visualizar os arquivos de log em geral, ele pudesse também fazer a gerencia de algumas regras que podem ser feitas no squid3, a exemplo do bloqueio de sites e extensões. 
 
