@@ -10,7 +10,29 @@ A utilização do squid tambem possibilita a criação de regras de acesso(as AC
 ## Inspiração
 
 A inspiração para o projeto partiu da observação da ferramenta "Sarg".
-![]({{site.baseurl}}//sarg.jpg)
+
+A figura 1 mostra a ferramenta "Sarg".
+
+![sarg.jpg]({{site.baseurl}}/sarg.jpg) _figura 1 - Sarg_
+
+Com a observação da ferramenta citada anteriormente, foi visto que a mesma só faz a exibição de arquivos de log de forma amigável, porém, a idéia é que além de o administrador poder visualizar os arquivos de log em geral, ele pudesse também fazer a gerencia de algumas regras que podem ser feitas no squid3, a exemplo do bloqueio de sites e extensões. 
+
+## Protótipos
+
+![bloqueio_de_sites.png]({{site.baseurl}}/bloqueio_de_sites.png)
+> We loved with a love that was more than love
+
+![bloqueio_de_extensoes.png]({{site.baseurl}}/bloqueio_de_extensoes.png)
+
+## Instrução de instalação do Squid3
+	apt-get install squid3
+
+
+
+
+
+
+
 
 
 
